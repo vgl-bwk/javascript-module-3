@@ -1,0 +1,12 @@
+.banner {
+    height: 200px;
+    overflow: hidden;
+    background-color: #424952;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b1/Rick_and_Morty.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+.main {
+    display:flex
+}

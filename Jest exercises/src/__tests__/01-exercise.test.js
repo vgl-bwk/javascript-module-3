@@ -9,15 +9,7 @@ describe("01-exercise", () => {
   test("add return the sum of the numbers", () => {
     expect.assertions(1);
 
-//given - arrange
-//when -act
-
-let result = add(2, 4)
-
-//then -assert
-
-expect(result).toBe(6)
-
-    // Finish the test
+    const result = add(8, 6);
+    expect(result).toBe(14);
   });
 });
